@@ -51,7 +51,7 @@ Mage_Eav_Model_Entity_Attribute_Backend_Abstract
 	public function beforeSave($object) {
 		$attributeCode = $this->getAttribute()->getName();
 
-		if ($attributeCode == 'filterdisable') {
+		if ($attributeCode == 'catprodattr') {
 			$data = $object->getData($attributeCode);
 
 			if (!is_array($data)) {
@@ -77,7 +77,7 @@ Mage_Eav_Model_Entity_Attribute_Backend_Abstract
 	public function afterLoad($object) {
 		$attributeCode = $this->getAttribute()->getName();
 
-		if ($attributeCode == 'filterdisable') {
+		if ($attributeCode == 'catprodattr') {
 			$data = $object->getData($attributeCode);
 
 			if ($data) {

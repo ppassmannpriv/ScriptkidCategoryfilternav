@@ -25,7 +25,7 @@ $installer->addAttribute('catalog_category', 'catprodattrshownav',  array(
 
 	)
 );
-	
+
 	
 $installer->addAttribute('catalog_category', 'catprodattr',  array(
 	'type'     => 'text',
@@ -55,3 +55,4 @@ $installer->addAttribute('catalog_category', 'catprodattr',  array(
 
 	
 $installer->endSetup();
+	 
