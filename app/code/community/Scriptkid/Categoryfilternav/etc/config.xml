@@ -14,7 +14,7 @@
 		<models>
 			<categoryfilternav>
 				<class>Scriptkid_Categoryfilternav_Model</class>
-				<resourceModel>categoryfilterdisable_mysql4</resourceModel>
+				<resourceModel>categoryfilternav_mysql4</resourceModel>
 			</categoryfilternav>
 		</models>
 		<resources>
